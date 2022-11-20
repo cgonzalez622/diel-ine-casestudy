@@ -1,6 +1,22 @@
+:root {
+--font-sans-serif: 'Roboto', sans-serif;
+--black: #000;
+--white: #fff;
+--lilac: #e8e8e8;
+--silver-sand: #c2c2c2;
+}
+
+
 html {
     box-sizing: border-box;
   }
   *, *:before, *:after {
     box-sizing: inherit;
+  }
+
+  body {
+    font-family: var(--font-sans-serif);
+    font-size: 14.5px;
+    font-weight: light;
+    line-height: 1.7;
   }
