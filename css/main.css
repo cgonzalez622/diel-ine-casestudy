@@ -46,6 +46,7 @@ h4 {
     margin: 0;
     padding: .5em;
     font-size: 20px;
+    text-decoration: underline 1px;
 }
 a {
     color: var(--black);
@@ -60,4 +61,49 @@ img {
 }
 .component__img, .component__code {
     border: 1px solid #ccc;
+}
+
+  /**Nav-bars**/
+li {
+    list-style: none;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.watch {
+    color: white;
+    background-color: black;
+    padding: 2px 7px;
+}
+form {
+    font-size: 15px;
+}
+input {
+    text-align: center;
+    font-weight: lighter;
+    padding: 7px;
+}
+.nav-bar, .nav-bar2, .nav-bar__socials {
+    display: flex;
+}
+.nav-bar {
+    font-size: 22px;
+    gap: 35px;
+    padding-left: 15px;
+}
+.nav-bar2 {
+    font-size: 17px;
+    font-weight: bold;
+    gap: 15px;
+    padding-left: 20px;
+}
+.nav-bar__socials {
+    font-size: 22px;
+    gap: 15px;
+}
+.socials {
+    display: flex;
+    align-items: center;
+    padding-left: 32px;
 }
