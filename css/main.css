@@ -6,7 +6,6 @@
 --silver-sand: #c2c2c2;
 }
 
-
 html {
     box-sizing: border-box;
   }
@@ -14,9 +13,51 @@ html {
     box-sizing: inherit;
   }
 
-  body {
+  /**typography**/
+.article-title, .component__name {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 50px;
+    background-color: lightpink;
+}
+
+body {
     font-family: var(--font-sans-serif);
     font-size: 14.5px;
     font-weight: light;
     line-height: 1.7;
-  }
+}
+h2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 125px;
+    font-stretch: expanded;
+}
+h3 {
+    display: block;
+    margin: 0;
+    padding: 0 .3em ;
+    line-height: 1.2;
+    width: 400px;
+    font-size: 40px;
+    font-weight: 450;
+}
+h4 {
+    margin: 0;
+    padding: .5em;
+    font-size: 20px;
+}
+a {
+    color: var(--black);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+.component img {
+    max-width: initial;
+}
+.component__img, .component__code {
+    border: 1px solid #ccc;
+}
