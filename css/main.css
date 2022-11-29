@@ -12,6 +12,26 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+  .component__code {
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0;
+  position: relative;
+}
+
+.component__code:before {
+  content: "CODE";
+  display: block;
+  padding: 0.25rem;
+  line-height: 1;
+  font-family: monospace;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background: lightgray;
+  color: var(--black);
+}
 
   /**typography**/
 .article-title, .component__name {
@@ -92,7 +112,7 @@ input {
     gap: 35px;
     padding-left: 15px;
 }
-.nav-bar2 {
+.nav-bar2, .nav-bar4, .nav-bar4-2  {
     font-size: 17px;
     font-weight: bold;
     gap: 15px;
@@ -106,4 +126,27 @@ input {
     display: flex;
     align-items: center;
     padding-left: 32px;
+}
+.nav4-container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(9, 200px)
+}
+.nav-bar4, .nav-bar4-2 {
+    display: flex;
+    gap: 30px;
+}
+.nav-bar4 {
+    padding-top: 1em;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: -1;  
+    margin-bottom: 0;
+}
+.nav-bar4-2 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-column-end: -1;
+    padding-top: 0;
+    margin-bottom: 0;
 }
