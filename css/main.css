@@ -152,3 +152,31 @@ input {
 }
 
   /**cover-sec1**/
+.cover1-img {
+    clip-path: polygon(0% 0%, 95% 0%, 100% 10%, 100% 100%, 100% 100%, 0% 100%, 0% 100%, 0% 0%);
+}
+.cover-sec1 {
+    padding: 1em;
+    display: flex;
+}
+.cover-sec1-text {
+    padding-left: 1em;
+}
+.get-readyh3 {
+    font-size: 20px;
+    width: 10em;
+}
+.award-tagh4, .date {
+    font-size: 9px;
+}
+.cover-sec1__mid {
+    display: flex;
+}
+.date {
+    align-self: center;
+    padding-left: 8em;
+    font-weight: bold;
+}
+.cover-sec1p {
+    font-size: 9px;
+}
