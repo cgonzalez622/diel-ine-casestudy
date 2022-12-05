@@ -303,3 +303,30 @@ button {
     letter-spacing: 1px;
     font-weight: bold;
 }
+  /**AWARDS-cover-sec2**/
+.award-img {
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: repeat(8, 97px);
+    grid-template-rows: repeat(5, 100px);
+}
+.award-img__large {
+    position: relative;
+    padding-left: 1em;
+}
+.award-imgs__small {
+    position: relative;
+    grid-column-start: 6;
+}
+.award-img3 {
+    margin-top: 2.75em;
+}
+.img-text1, .img-text2, .img-text3 {
+    position: absolute;
+    color: aqua;
+    font-size: 20px;
+}
+.img-text1 {
+    grid-column: 1;
+    grid-row: 2;
+}
