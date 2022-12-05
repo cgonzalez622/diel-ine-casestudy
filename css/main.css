@@ -17,12 +17,13 @@ html {
   background: #fff;
   margin: 0;
   position: relative;
+  padding: 1em;
 }
 
 .component__code:before {
   content: "CODE";
   display: block;
-  padding: 0.25rem;
+  padding: 1rem;
   line-height: 1;
   font-family: monospace;
   position: absolute;
@@ -34,17 +35,19 @@ html {
 }
 
   /**typography**/
-.article-title, .component__name {
-    font-family: Arial, Helvetica, sans-serif; 
-    font-size: 50px;
-    background-color: lightpink;
+div.component__name {
+    background-color: lightblue;
+    font-size: 20px;
+    font-family:var(--font-sans-serif);
+    text-align: center;
+    text-decoration: underline;
 }
-
 body {
     font-family: var(--font-sans-serif);
     font-size: 14.5px;
     font-weight: light;
     line-height: 1.7;
+    padding: 2em;
 }
 h2 {
     margin: 0;
@@ -223,7 +226,6 @@ h5 {
     text-align: center;
     font-weight: lighter;
 }
-
 .cover-sec3__readyh3 {
     font-size: 20px;
     width: 10em;
