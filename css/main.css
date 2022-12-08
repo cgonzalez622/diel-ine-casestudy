@@ -217,7 +217,8 @@ tr:nth-child(1) {
     flex-direction: row;
     padding-left: 0;
 }
-h5 {
+.logo-text {
+    font-weight: bold;
     align-self: center;
     padding-left: 1em;
 }
@@ -295,15 +296,12 @@ h5 {
 }
 button {
     font-size: 5px;
-    background-color: #000;
-    border: none;
-    padding: .75em 2em;
-}
-.button-text {
     color: white;
-    font-size: 10px;
     letter-spacing: 1px;
     font-weight: bold;
+    background-color: #000;
+    border: none;
+    padding: .75em em;
 }
   /**AWARDS-cover-sec2**/
 .award-img {
