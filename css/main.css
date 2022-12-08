@@ -308,25 +308,33 @@ button {
     font-size: 12px;
     display: grid;
     grid-template-columns: repeat(8, 97px);
-    grid-template-rows: repeat(5, 100px);
+    grid-template-rows: repeat(4, 85px);
 }
-.award-img__large {
-    position: relative;
-    padding-left: 1em;
-}
-.award-imgs__small {
+.award-imgs-text__small {
     position: relative;
     grid-column-start: 6;
 }
-.award-img3 {
-    margin-top: 2.75em;
+.award-imgs-text2__small {
+    position: relative;
+    grid-column-start: 6;
+    grid-row-start: 3;
+
 }
 .img-text1, .img-text2, .img-text3 {
     position: absolute;
-    color: aqua;
-    font-size: 20px;
+    color: white;
+    font-size: 25px;
 }
 .img-text1 {
-    grid-column: 1;
-    grid-row: 2;
+    top: 140px;
+    left: 50px;
+}
+.img-text2 {
+    top: 50px;
+    left: 50px;
+}
+.img-text3 {
+    line-height: 30px;
+    top: 30px;
+    left: 50px;
 }
