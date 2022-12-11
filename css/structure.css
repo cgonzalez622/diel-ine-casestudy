@@ -1,0 +1,74 @@
+
+/**section-1**/
+.section1-container{
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(4, 90px);
+    grid-gap: 5px;
+}
+.nav-container {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: -1;
+}
+.dieline-header {
+    padding-top: 0;
+}
+.nav-bar {
+    margin-top: -1em;
+}
+.nav2-container {
+    padding-top: 2.5em;
+    grid-column-start: 8;
+    grid-row-start: 1;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.nav-bar2 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.form {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    padding-left: 3em;
+}
+.nav-bar__socials {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    padding-left: 11em;
+    margin-top: 0;
+}
+.border-line {
+    border-bottom: 1px solid black;
+    grid-row-start: 3;
+    grid-column: 1 / 14;
+}
+.border-line2 {
+    border-bottom: 1px solid black;
+    padding-top: 15em;
+    grid-column: 1 / 14;
+}
+
+/**video**/
+.video {
+    display: grid;
+    background-color: black;
+    width: 100%;
+    height: 625px;
+    padding: 0;
+    margin: 0;
+}
+iframe {    
+    justify-self: center;
+    border: black;
+}
+/**section-3**/
+.more-jobs {
+    border-bottom: 1px solid black;
+    padding-bottom: 3em;
+    margin: auto;
+    width: 90%;
+}
+/**section-4**/
