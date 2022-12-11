@@ -25,9 +25,13 @@ body {
     font-size: 14.5px;
     font-weight: light;
     line-height: 1.7;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 .grid-container, .grid-container2 {
     padding: 0 3em;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -35,7 +39,7 @@ h2 {
     margin: 0;
     padding: 0;
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 115px;
+    font-size: 110px;
     font-stretch: expanded;
 }
 h3 {
@@ -270,6 +274,9 @@ tr:nth-child(1) {
     color: white;
     background-color: #000;
     border-top: 1px solid white;
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the bottom of the page */
+    width: 100%; /* Full width */
 }
 .footernav-bar {
     display: flex;
@@ -311,66 +318,4 @@ tr:nth-child(1) {
     background-color: white;
     padding: 2px 7px;
 }
-  /**AWARDS-cover-sec1**/
-.award-coversec1 {
-    position: relative;
-    text-align: left;
-    padding-left: 1.5em;
-}
-.award-coversec1-text__container {
-    position: absolute;
-    bottom: 20px;
-    left: 16px;
-    width: 400px;
-    padding: 2em;
-    line-height: 3em;
-}
-.award-coversec1-h2 {
-    color: white;
-    font-size: 40px;
-    padding-bottom: .3em;
-}
-button {
-    font-size: 5px;
-    color: white;
-    letter-spacing: 1px;
-    font-weight: bold;
-    background-color: #000;
-    border: none;
-    padding: .75em em;
-}
-  /**AWARDS-cover-sec2**/
-.award-img {
-    font-size: 12px;
-    display: grid;
-    grid-template-columns: repeat(8, 97px);
-    grid-template-rows: repeat(4, 85px);
-}
-.award-imgs-text__small {
-    position: relative;
-    grid-column-start: 6;
-}
-.award-imgs-text2__small {
-    position: relative;
-    grid-column-start: 6;
-    grid-row-start: 3;
-
-}
-.img-text1, .img-text2, .img-text3 {
-    position: absolute;
-    color: white;
-    font-size: 25px;
-}
-.img-text1 {
-    top: 140px;
-    left: 50px;
-}
-.img-text2 {
-    top: 50px;
-    left: 50px;
-}
-.img-text3 {
-    line-height: 30px;
-    top: 30px;
-    left: 50px;
-}
+ 
