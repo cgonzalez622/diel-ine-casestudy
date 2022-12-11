@@ -1,0 +1,54 @@
+body {
+    justify-content: center ;
+}
+
+.component {
+    margin-bottom: 6em;
+    position: relative;
+    padding: 2em;
+  }
+  
+  .component img {
+    max-width: initial;
+  }
+  .component__img {
+    border: 1px solid #ccc;
+    margin: 0 0 2em 0;
+    overflow-x: auto;
+    position: relative;
+    padding-top: 1em;
+  }
+  
+  .component__name {
+    font-family: monospace;
+    font-size: 1.25rem;
+    font-weight: normal;
+    background: var(--gray-light);
+    padding: 1rem;
+    margin: 0;
+  }
+  .component__code {
+    border: 1px solid #ccc;
+    background: #fff;
+    margin: 0;
+    position: relative;
+  }
+  
+  .component__code:before,
+  .component__img:before {
+    content: "CODE";
+    display: block;
+    padding: 0.25rem;
+    line-height: 1;
+    font-family: monospace;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: var(--gray-light);
+    color: var(--gray-dark);
+  }
+  .component__img:before {
+    content: "IMG";
+  }
+  
